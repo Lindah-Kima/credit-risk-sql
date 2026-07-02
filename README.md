@@ -4,11 +4,13 @@
 
 ## Project Overview
 
-This repository documents a 30-day journey of solving real-world business problems using SQL.
+This repository is a growing collection of business SQL case studies focused on lending analytics, credit risk, and data-driven decision-making in financial services.
 
-Rather than focusing on isolated SQL exercises, each case study begins with a business question, explores the analytical thinking behind the solution, develops a production-style SQL query, and concludes with actionable business insights and recommendations.
+Organized into themed seasons, each case study begins with a real-world business question, explores the analytical thinking behind the solution, develops production-style SQL, and concludes with actionable business insights and recommendations.
 
-The goal is to bridge the gap between writing SQL queries and making data-driven business decisions.
+Rather than treating SQL as an isolated technical skill, this repository approaches SQL as a tool for understanding business problems, supporting analytical thinking, and enabling better decisions.
+
+The goal is to bridge the gap between writing SQL queries and using data to support better business decisions in financial services.
 
 ## Objectives
 
@@ -16,7 +18,7 @@ This project aims to:
 
 - Improve the ability to translate business questions into SQL solutions.
 - Strengthen analytical and problem-solving skills through real-world case studies.
-- Apply SQL to support business decision-making across different industries.
+- Apply SQL to support lending, credit risk, and business decision-making in financial services..
 - Practice writing clean, efficient, and production-style SQL queries.
 - Communicate findings through clear business insights and recommendations.
 - Build a portfolio that demonstrates practical SQL and analytical thinking to recruiters and hiring managers.
