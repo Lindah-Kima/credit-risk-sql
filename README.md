@@ -1,4 +1,4 @@
-# Business SQL Playbook
+# Credit Risk SQL
 
 ### Real SQL. Real Business Questions. Real Decisions.
 
