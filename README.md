@@ -6,7 +6,7 @@
 
 This repository documents the design and implementation of a production-inspired lending analytics data warehouse using PostgreSQL.
 
-Starting with raw transactional data, the project follows the Medallion Architecture (Bronze, Silver, Gold) and Kimball dimensional modeling before applying SQL to answer real business questions across the lending lifecycle.
+Starting with raw transactional data stored in Aiven PostgreSQL and managed through DBeaver, the project follows the Medallion Architecture (Bronze, Silver, Gold) and Kimball dimensional modeling before applying SQL to answer real business questions across the lending lifecycle.
 
 Rather than treating SQL as an isolated technical skill, this project uses SQL as a tool for understanding business operations, analyzing credit portfolios, evaluating lending performance, and supporting data-driven decision-making.
 
@@ -24,10 +24,45 @@ This project aims to:
 * Strengthen analytical and problem-solving skills using real lending and credit risk scenarios.
 * Write clean, readable, and maintainable SQL following industry practices.
 * Interpret query results to generate meaningful business insights and recommendations.
-* Build a portfolio that demonstrates practical SQL, analytical thinking, and data warehouse design.
+* Build a portfolio that demonstrates SQL for analysis and business intelligence, analytical thinking, and data warehouse design.
 
 ---
+# Technology Stack
 
+- PostgreSQL (Aiven)
+- DBeaver
+- SQL
+- Medallion Architecture
+- Kimball Dimensional Modeling
+- Tonic Fabricate (Synthetic Data Generation)
+- Git & GitHub
+
+---
+# Dataset
+
+This project uses a synthetic lending dataset generated with **Tonic Fabricate**.
+
+The dataset simulates the operations of a retail lending institution and includes:
+
+- Customers
+- Credit profiles
+- Loan applications
+- Loans
+- Loan payments
+- Loan Products
+- Repayment schedules
+- Collateral
+- Collection cases
+- Collection agents
+- Branches
+- Loan products
+- Monthly Portfolio snapshots
+- Policy rules
+- Repayment schedule
+
+Although synthetic, the dataset preserves realistic business relationships and lending workflows, making it suitable for practicing production-style data warehousing, SQL analytics, business intellignece and credit risk analysis without exposing sensitive customer information.
+
+---
 # Data Warehouse Architecture
 
 The project follows a layered data architecture commonly used in modern analytics platforms.
@@ -229,6 +264,6 @@ This project is built on five principles.
 
 The objective of this repository is not simply to practice SQL syntax.
 
-It is to develop the ability to think like a data professional by combining data engineering, analytical reasoning, business understanding, and SQL to solve real lending and credit risk problems.
+It is to develop the ability to think like a data professional by combining data warehousing, analytical reasoning, business understanding, and SQL to solve real lending and credit risk problems.
 
 Each completed section represents another step toward designing analytical data warehouses, writing production-quality SQL, and using data to support informed business decisions.
