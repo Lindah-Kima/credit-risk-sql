@@ -1,0 +1,7 @@
+# ============================================================================
+# Raw datasets
+# Generated using Tonic Fabricate.
+# These files are excluded from version control.
+# ============================================================================
+
+datasets/raw/
